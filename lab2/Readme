@@ -1,0 +1,19 @@
+Instructions to use makefile
+
+To Compile and Run 'lab2.c' and also remove the executable, use command 'make'
+
+make : This command will perform following activities
+	1. Compile lab2.c and generate the executable file i.e lab2
+	2. Run the executable lab2 (./lab2)
+	3. Delete the executable lab2 (rm lab2)
+
+To perform individual activities use following commands :
+
+make Compile: 
+	This command will only compile 'lab2.c' and generate the executable file i.e lab2
+
+make Run : 
+	This command will only Run the executable 'lab2' (./lab2)
+
+make Clear : 
+	This command will only Delete the executable 'lab2' (rm lab2)

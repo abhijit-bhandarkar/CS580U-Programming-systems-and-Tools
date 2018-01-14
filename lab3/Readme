@@ -1,0 +1,22 @@
+Instructions to use makefile
+
+To Compile and Run 'lab3.c' and also remove the executable, use command 'make'
+
+make : This command will perform following activities
+	1. Compile lab3.c and generate the executable file i.e lab3
+	2. Run the executable lab3 (./lab3)
+	3. Delete the executable lab3 (rm lab3)
+
+To perform individual activities use following commands :
+
+make ClrScr:
+	This command will clear the screen
+
+make Compile: 
+	This command will only compile 'lab3.c' and generate the executable file i.e lab3
+
+make Run : 
+	This command will only Run the executable 'lab3' (./lab3)
+
+make Clear : 
+	This command will only Delete the executable 'lab3' (rm lab3)

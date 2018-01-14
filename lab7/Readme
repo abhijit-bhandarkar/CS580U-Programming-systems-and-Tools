@@ -1,0 +1,26 @@
+
+
+NOTE : 
+1. Function declarations and Structure definition are included in BST.h
+2. "file.txt" contains the input values of nodes
+
+To Compile and Run 'lab7.c' and also remove the executable, use command 'make'
+
+make : This command will perform following activities
+	1. Compile lab7.c and generate the executable file i.e lab7
+	2. Run the executable lab7 (./lab7)
+	3. Delete the executable lab7 (rm lab7)
+
+To perform individual activities use following commands :
+
+make ClrScr:
+	This command will clear the screen
+
+make Compile: 
+	This command will only compile 'lab7.c' and generate the executable file i.e lab7
+
+make Run : 
+	This command will only Run the executable 'lab6' (./lab7)
+
+make Clear : 
+	This command will only Delete the executable 'lab6' (rm ./lab7)

@@ -1,0 +1,24 @@
+
+
+NOTE : Uninitialized Global variables, Function declarations and Structure definition are included in MyFile.h
+ 
+To Compile and Run 'lab6.c' and also remove the executable, use command 'make'
+
+make : This command will perform following activities
+	1. Compile lab5.c and generate the executable file i.e lab6
+	2. Run the executable lab6 (./lab6)
+	3. Delete the executable lab5 (rm lab6)
+
+To perform individual activities use following commands :
+
+make ClrScr:
+	This command will clear the screen
+
+make Compile: 
+	This command will only compile 'lab6.c' and generate the executable file i.e lab6
+
+make Run : 
+	This command will only Run the executable 'lab6' (./lab6)
+
+make Clear : 
+	This command will only Delete the executable 'lab6' (rm lab6)

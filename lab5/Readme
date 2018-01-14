@@ -1,0 +1,26 @@
+
+
+NOTE 1: Need to press ENTER twice after entering the First and Second name on the console 
+NOTE 2: Uninitialized Global variables, Function declarations and Structure definition are included in MyFile.h
+NOTE 3: "names.c" stores the list of names
+ 
+To Compile and Run 'lab5.c' and also remove the executable, use command 'make'
+
+make : This command will perform following activities
+	1. Compile lab5.c and generate the executable file i.e lab5
+	2. Run the executable lab4 (./lab5)
+	3. Delete the executable lab5 (rm lab5)
+
+To perform individual activities use following commands :
+
+make ClrScr:
+	This command will clear the screen
+
+make Compile: 
+	This command will only compile 'lab5.c' and generate the executable file i.e lab5
+
+make Run : 
+	This command will only Run the executable 'lab4' (./lab5)
+
+make Clear : 
+	This command will only Delete the executable 'lab4' (rm lab5)
